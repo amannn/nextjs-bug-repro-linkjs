@@ -1,7 +1,10 @@
+import Link from 'next/link.js';
+
 export default function Home() {
   return (
     <main>
-      <div>Hello world!</div>
+      <div>Home</div>
+      <Link href="/test">Test</Link>
     </main>
   );
 }
