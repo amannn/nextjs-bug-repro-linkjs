@@ -1,10 +1,10 @@
-import Link from 'next/link.js';
+import {StyledLink} from 'ui';
 
 export default function Home() {
   return (
     <main>
       <div>Home</div>
-      <Link href="/test">Test</Link>
+      <StyledLink href="/test">Test</StyledLink>
     </main>
   );
 }
